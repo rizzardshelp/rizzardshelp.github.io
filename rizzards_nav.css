@@ -158,12 +158,11 @@ display: block;
 
 
 ul{
-position: absolute;
+position: fixed;
 width: 20%;
-height: 100vh;
 
 
-top: 90px;
+top: 100px;
 left: 0;
 text-align: center;
 left: -200%;
@@ -184,7 +183,6 @@ left: 0;
 transform: translateX(0);
 background-color: #3bd4ae;
 }
-
 
 
 .menu li{
@@ -210,7 +208,12 @@ border: none;
 left: 0;
 }}
 
-
+@media only screen and (max-width: 900px) {
+    ul{
+        width: 25%;
+        border-radius: 5px;
+    }
+}
 
 
 

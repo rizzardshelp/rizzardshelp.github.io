@@ -71,7 +71,9 @@ body {
 .footer{
   color: #004a7c;
   font-weight: bold;
+  bottom: 1px;
 }
+
 #email{
   background-color: #3bd4ae;
   padding: 0;
@@ -128,6 +130,10 @@ body {
     height: 20%;
 }
 
+.foot{
+  font-size: 20px;
+}
+
 
 }
 
@@ -146,6 +152,11 @@ body {
     align-items: center;
     text-align: center;
   }
+
+  #us{
+    display: none;
+  }
+
 
 }
 
