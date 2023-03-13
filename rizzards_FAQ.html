@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- javascript --> 
+  <script>document.getElementsByTagName("html")[0].className += " js";</script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="rizzards.js"></script>
+
+  <!-- css -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="rizzards.css">
+  <link rel="stylesheet" href="rizzards_FAQ.css">
+  <link rel="stylesheet" href="rizzards_nav.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href='https://unpkg.com/css.gg@2.0.0/icons/css/menu-left-alt.css' rel='stylesheet'>
+
+
+  <title>FAQs</title>
+</head>
+<body>
+
+<!-- navigation panel -->
+<nav class="navbar" target="_top" id="up">
+
+    <input type="checkbox" id="check">
+    <label for="check"  class="checkbtn">
+        <i class="gg-menu-left-alt"></i>
+    </label>
+
+    <lable class="logo" target="_top">
+        <img src="lizzard_image-removebg-preview.png" alt="" id="logo" target="_top">
+    </lable>
+
+    
+
+    <ul class="menu" target="_top">   
+        <li target="_top"><button class="translate" onclick="call()" id="mm">မြန်မာ</button></li>
+        <li target="_top"> <a class="lang" key="home" href="index.html">Home</a></li>
+        <li target="_top"><a class="lang" key="about" href="rizzards_us.html">About us</a></li>
+        <li target="_top"><a class="lang" key="FAQs" href="rizzards_FAQ.html">FAQs</a></li>
+    </ul>
+</nav>
+
+
+<button class="backtotop" id="backtotop">
+	<a class="material-icons"; href="#up">
+		vertical_align_top
+	</a>
+</button>
+
+<section class="cd-faq js-cd-faq container max-width-md margin-top-lg margin-bottom-lg">
+	<ul class="cd-faq__categories" style="display: inline-block !important;">
+		<li><a class="cd-faq__category cd-faq__category-selected truncate" href="#basics">About Mental Health</a></li>
+		<li><a class="cd-faq__category truncate" href="#mobile">HelpUrSelf</a></li>
+		<li><a class="cd-faq__category truncate" href="#account">TalkUrHeart</a></li>
+		<li><a class="cd-faq__category truncate" href="#payments">Other Feautures</a></li>
+		<li><a class="cd-faq__category truncate" href="#privacy">Your Account</a></li>
+		<li><a class="cd-faq__category truncate" href="#delivery">What do I do</a></li>
+	</ul> <!-- cd-faq__categories -->
+
+	<div class="cd-faq__items">
+		<ul id="basics" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>About Mental Health</h2></li>
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>How do I know if I’m unwell?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <h4 style="color: #004a7c;">If your beliefs , thoughts , feelings or behaviours have a significant impact on your ability to function in what might be considered a normal or ordinary way, it would be important to seek help.</h4>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>What should I do if I’m worried about a friend or relative?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <h4>This may depend on your relationship with them. Gently encouraging someone to seek appropriate support would be helpful to start with.</h4>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Can you prevent mental health problems?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <h4>We can all suffer from mental health challenges, but developing our wellbeing, resilience, and seeking help early can help prevent challenges becoming serious.</h4>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Where do I seek help?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <h4> You can contact <a href="https://www.callmetoday.org/">Call Me Today</a> to seek out help for yourself. We are very proud of you for doing this. We wish you the best. </h4>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+		</ul> <!-- cd-faq__group -->
+
+		<ul id="mobile" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>HelpUrSelf</h2></li>
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>What is HelpUrSelf?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <h4>HelfUrSelf is an all-in-one app to help develop your physical and mental well-being. install it now by going to homepage!</h4>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>What is included in HelpUrSelf?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <h4>A lot!<br><br>
+				Main Feature of HelpUrSelf is TalkUrMind (a chatbot where you can freely express ur thoughts). But that's not that end. HelpUrSelf also includes reminder to drink water(DrinkUrWater), mediatation timer(CalmUrMind), BMI calculator(KnowUrHealth) and pedometer(WalkUrSteps).</h4>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Does HelpUrSelf collect data?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <h4>Short answer: no! <br><br>
+				HelpUrSelf does not collect data as long as it is not the content of "personal record" page where we do need to store your progress in order to show reliable content. If you have concerns with such data collection, you can mail us anytime to delete your record manually from backend </h4>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Who do we help?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <h4>HelpUrSelf is free to use & meant for everyone! After all, mental well-being is essential to maintain a healthy life-style  which we all are aiming for.</h4>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+		</ul> <!-- cd-faq__group -->
+
+		<ul id="account" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>TalkUrHeart</h2></li>
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>What does TalkUrHeart do?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <h4>It is a safe environment created just for you. You can vent your emotions without leaking information to anyone. It is meant to function like a thearpist...but FREE. We created this feature in hope to ease your mind so talk away!</h4>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Who can view my conversations?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <h4>Great News: No one! not even us.</h4>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>How do I use it?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <h4>Nothing's simpler. You can freely have a conversation with our bot by typing into the chat box given. If you think that the conversation isn't working well, you can contact us by mailing <a href="mailto:mit123app45inventor@gmail.com" target="_" rel="noopener noreferrer">mit123app45inventor@gmail.com</a></h4>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			
+		</ul> <!-- cd-faq__group -->
+
+		<ul id="payments" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>Other Feautures</h2></li>
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>What is KnowUrHealth and How does it work?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <h4>KnowUrHealth is an BMI caluclator where you can test if your body is healthy. After inputting neccessary data, you may check if you're overweight, normal or underweight. It helps to know yourself before continuing to other functions</h4>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>What is WalkUrSteps and How does it work?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <h4>The name is quite intuitive, isn't it? You may count how much you've walk by clicking the start button. Enter target distance to make a goal for yourself! The steps will be showed in ur account.</h4>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>What is DrinkUrWater and How does it work?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <h4>Hydration superrr important to your wellbeing & we know you forget it easily. So, this is an app to remind you to stay healthy and hydrated. There will be a timer where you can set to start the program. You may also add how many times you would like to be reminded
+
+			</h4>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>What is CalmUrMind and How does it work?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <h4>It is an app to time and help you meditate. Start the timer to record the duration while calming music is played in the background to help you focus. This will be showed in ur account
+
+			</h4>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+		</ul> <!-- cd-faq__group -->
+
+		<ul id="privacy" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>Your Personal Account</h2></li>
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Why do I need to create my account?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <h4>We need to make sure that your walking steps and progress are keep tracked. We do this by using your account. There is no need to enter official name nor email, as long as it is valid.</h4>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>How do i share my progress to friends?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <h4>Go to your profile. There will be a share button to do so. We wish you continuous progress.</h4>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>How do I delete my account</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <h4>Go to your profile. There will be a button to delete the account. You may lose all your progress permenantly if you delete the app. Think twice!</h4>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			
+
+		</ul> <!-- cd-faq__group -->
+
+		<ul id="delivery" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>What do I do?</h2></li>
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>I want to include my advertisment in this web.</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <h4>You may contact us through <a href="mailto:mit123app45inventor@gmail.com" target="_" rel="noopener noreferrer">mit123app45inventor@gmail.com</a>.
+				Please note that we only accept advertisment from health industry. Others will not be accepted by any means. Thank you for being a part of our journey. </h4>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>I have a question but it is not in the FAQs.</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <h4>You may contact us through <a href="mailto:mit123app45inventor@gmail.com" target="_" rel="noopener noreferrer">mit123app45inventor@gmail.com</a>. We will response asap within office hours. Please be patient with us and do not spam. We are very sorry for your inconvenience.</h4>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>I have a suggestion(s).</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <h4>Thank you for helping us. You may contact us through <a href="mailto:mit123app45inventor@gmail.com" target="_" rel="noopener noreferrer">mit123app45inventor@gmail.com</a>. We will be sure to consider your suggestion seriously.</h4>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Nth to ask. I just wanna say thank you.</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <h4>Your appreaciation is worth everything to us. We are very happy to hear that you like our app. After all, it is all for you!</h4>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			
+		</ul> <!-- cd-faq__group -->
+	</div> <!-- cd-faq__items -->
+
+	<a href="#0" class="cd-faq__close-panel text-replace">Close</a>
+  
+  <div class="cd-faq__overlay" aria-hidden="true"></div>
+</section> <!-- cd-faq -->
+</div>
+<script src="assets/js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
+<script src="assets/js/main.js"></script> 
+</body>
+</html>

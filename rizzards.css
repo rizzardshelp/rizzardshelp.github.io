@@ -1,0 +1,151 @@
+/* #ffffff #3bd4ae */
+
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #004a7c;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* homepage */
+
+.contain {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 30px;
+  color: white;
+}
+
+
+.link_app{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.qr{
+    width: 20%;
+    height: 20%;    
+}
+
+.vid{
+    width: 40%;
+    height: 20%;
+}
+
+.heading {
+
+  color: #004a7c;
+  padding: 20px;
+  background-color: #3bd4ae;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.foot{
+  text-align: center;
+  font-size: 30px;
+}
+
+.spaceforads{
+  text-align: center;
+  color: white;
+  justify-content: space-between;
+}
+
+.ads{
+  width: 40px;
+  padding: 30px;
+}
+
+/* footer */
+.footer{
+  color: #004a7c;
+  font-weight: bold;
+}
+#email{
+  background-color: #3bd4ae;
+  padding: 0;
+  color: black;
+}
+
+
+
+#email{
+  text-decoration: none;
+}
+
+
+
+/* introduction and objective */
+
+
+
+@media only screen and (max-width: 1150px) {
+
+  .contain{
+    display: block;
+    text-align: center;
+  }
+
+  .ads{
+    width: 100%;
+    padding: 30px;
+  }
+
+  .heading span {
+      font-style: italic;
+      font-size: 20px;
+  }
+
+  .link_app{
+    display: block;
+    text-align: center;
+  }
+
+  .qr{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    height: 30%;  
+    padding-bottom: 20px;  
+}
+
+.vid{
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    height: 20%;
+}
+
+
+}
+
+@media only screen and (max-width: 900px) {
+  
+    .heading {
+    text-align: center;
+  }
+
+  .team{
+    display: block;
+    text-align: center;
+  }
+  
+  .mentro_profile{
+    align-items: center;
+    text-align: center;
+  }
+
+}
+
