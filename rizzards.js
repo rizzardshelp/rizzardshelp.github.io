@@ -13,14 +13,16 @@ $(document).ready(function() {
     arrLang['en']['qr'] = 'Scan QR code to install the app';
     arrLang['en']['obj'] = 'Our Objective';
     arrLang['en']['objtext'] = 'Rizzards aim to make an all-in-one app helping people who are struggling with mental health. We wish to be a part of ur self-improvement journey. Let us be your supporter!';
+    arrLang['en']['ddown'] = 'click here to download directly';
 
     // Myanmar content
     arrLang['mm']['home'] = 'မူရင်း';
     arrLang['mm']['about'] = 'အကြောင်းအရာ';
     arrLang['mm']['FAQs'] = 'မေးခွန်းများ';
-    arrLang['mm']['qr'] = 'App ကိုသွင်းရန် Qr ရိုက်ပါ';
+    arrLang['mm']['qr'] = 'App ကိုသွင်းရန် QR code ရိုက်ပါ';
     arrLang['mm']['obj'] = 'Rizzards ၏ရည်မှန်းချက်';
     arrLang['mm']['objtext'] = 'Rizzards ကတော့ mental health နဲ့ပတ်သက်ပြီးခံစားနေရသောသူများကို ကူညီပေးရန်ဖွဲစည်းထားသော၊ တစ်စုတစ်စည်းထဲဖြစ်အောင်ဖန်တီးပေးထားသော all-in-one မိုလ်ဘိုင်း အပ်ပလီကေးရှင်း ဖြစ်ပါတယ်။ သင်တိုရဲ့ ကိုယ်ပိုင်တိုးတတ်သောလမ်းခရီးကို rizzards မှ တစ်စိတ်တစ်ဒေသ ကူညီမှူပေးပါရစေ….';
+    arrLang['mm']['ddown'] = 'ဒေါင်းလုဒ် ပြုလုပ်ရန် ဤစာတန်းကို နှိပ်ပါ';
     // Process translation
     $(function(){
     var clicked = true;
