@@ -214,6 +214,11 @@ border: none;
 left: 0;
 }}
 
-
+@media only screen and (max-width: 900px) {
+    ul{
+        width:  100%;
+        border-radius: 5px;
+    }
+}
 
 
